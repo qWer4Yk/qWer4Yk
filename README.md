@@ -1,7 +1,12 @@
 ## Hi there 👋
 
 
-**qWer4Yk/qWer4Yk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Who am i
+
+[![qWer4Yk github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=qWer4Yk)](https://github.com/qWer4Yk/github-readme-activity-graph)
+
+is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+qWer4Yk
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
