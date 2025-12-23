@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+![](https://komarev.com/ghpvc/?username=qWer4Yk&style=flat-square)
 
 Who am i
 
@@ -7,6 +8,9 @@ Who am i
 
 is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 qWer4Yk
+
+
+
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
