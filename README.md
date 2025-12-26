@@ -1,4 +1,4 @@
-![GIF]([https://github.com/qWer4Yk/qWer4Yk/blob/main/qWer4Yk](https://github.com/qWer4Yk/qWer4Yk/blob/main/qwer4yk.gif))
+![qwer4yk]([https://github.com/qWer4Yk/qWer4Yk/blob/main/qWer4Yk](https://github.com/qWer4Yk/qWer4Yk/blob/main/qwer4yk.gif))
 ## Hi there 👋
 
 ![](https://komarev.com/ghpvc/?username=qWer4Yk&style=flat-square)
