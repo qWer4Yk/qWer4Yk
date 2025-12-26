@@ -2,8 +2,8 @@
   <img src="qwer4yk.gif" alt="animated" />
 </p>
 
-## Hi there 👋
-
+# Hi 👋, I'm Dmitriy Domokurv, aka qWer4Yk
+<h3 align="center">A  cybersecurity and programmer looking to render the best of my knowledge and skills</h3>
 ![](https://komarev.com/ghpvc/?username=qWer4Yk&style=flat-square)
 
 Who am i
