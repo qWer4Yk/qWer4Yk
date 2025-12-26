@@ -1,4 +1,7 @@
-![qwer4yk]([https://github.com/qWer4Yk/qWer4Yk/blob/main/qWer4Yk](https://github.com/qWer4Yk/qWer4Yk/blob/main/qwer4yk.gif))
+<p align="center">
+  <img src="qwer4yk.gif" alt="animated" />
+</p>
+
 ## Hi there 👋
 
 ![](https://komarev.com/ghpvc/?username=qWer4Yk&style=flat-square)
