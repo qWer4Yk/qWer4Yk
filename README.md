@@ -1,87 +1,100 @@
 <p align="center">
-  <img src="qwer4yk.gif" alt="animated" />
+  <img src="qwer4yk.gif" alt="animated" width="100%" />
 </p>
 
-# Hi 👋, I'm Dmitriy Domokurov, aka qWer4Yk
-<h3 align="center">A  cybersecurity and programmer looking to render the best of my knowledge and skills</h3>
+# Hi 👋, I'm Dmitriy Domokurov (@qWer4Yk)
+<h3 align="center">🚀 Software Engineering Student | Secure Go Backend & AppSec Developer</h3>
 
-![](https://komarev.com/ghpvc/?username=qWer4Yk&style=flat-square)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=qWer4Yk&color=00ADD8&style=flat-square" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Highload%20%26%20Security-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Seeking%20Internship-success?style=flat-square" />
+</p>
 
-Who am i
+---
 
-[![qWer4Yk github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=qWer4Yk&theme=merko)](https://github.com/qWer4Yk/github-readme-activity-graph)
+### 👨‍💻 Обо мне
+Студент 1-го курса бакалавриата по специальности **«Программная инженерия»**. Специализируюсь на серверной разработке на **Golang** и практической безопасности приложений (**AppSec / DevSecOps**).
 
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
+* ⚡ **Go Backend:** Проектирую чистую многослойную архитектуру (Clean Architecture), пишу конкурентный код без дедлоков и утечек памяти, работаю с PostgreSQL, Redis и Docker.
+* 🛡️ **AppSec & DevSecOps:** Понимаю векторы атак (OWASP Top 10 API), закрываю состояния гонки (`-race`), внедряю SAST/SCA проверки (Semgrep, `govulncheck`) в CI/CD и упаковываю сервисы в безопасные non-root контейнеры.
+* 🎯 **Цель:** Стажировка / Junior позиция Go Backend Developer или AppSec Engineer в сильной инженерной команде.
 
+---
 
-💼 В настоящее время работаю над
-- 🚀 Создание потрясающих проектов
-- 📚 Изучение новых технологий
-- 📖 Написание статей о технологиях
-- 📚 Создание высоконагруженных сервисов
+### 🏆 Избранные проекты (Featured Projects)
 
-🚀 В чём я обладаю навыками
-- 💻 Языки программирования: Golang (gin, gRPC), Python (PyTorch, Tensor), Java (spring),  
-- 🧠 OpenCV: В настоящее время изучаю и осваиваю.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🏨 <a href="https://github.com/qWer4Yk/hotel-content-aggregator">hotel-content-aggregator</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Go-1.24-00ADD8?style=flat-square&logo=go" />
+        <img src="https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql" />
+        <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker" />
+      </p>
+      <p>Высоконагруженный REST API микросервис приёма, валидации и дедупликации каталожных данных отелей от OTA-поставщиков.</p>
+      <ul>
+        <li>Алгоритм сопоставления дубликатов по формуле Haversine (&le; 200 м) и нормализации строк.</li>
+        <li>Слияние контента карточек без потери данных (обогащение атрибутов, фотографий и рейтинга).</li>
+        <li>Сложная индексация в PostgreSQL, пагинация, тесты с <code>-race</code>.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ <a href="https://github.com/qWer4Yk/concurrency-worker-pool">concurrency-worker-pool</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Go-Concurrency-00ADD8?style=flat-square&logo=go" />
+        <img src="https://img.shields.io/badge/Benchmark-1M_ops%2Fs-orange?style=flat-square" />
+        <img src="https://img.shields.io/badge/Race-Safe-brightgreen?style=flat-square" />
+      </p>
+      <p>Отказоустойчивый пул воркеров для параллельной обработки очередей задач с защитой внешних API.</p>
+      <ul>
+        <li>Динамическое ограничение частоты запросов (Rate Limiter по RPS).</li>
+        <li>Изоляция паник через <code>recover()</code> внутри воркеров без падения процесса.</li>
+        <li>Неблокирующий сбор метрик на <code>sync/atomic</code> и корректный Graceful Shutdown.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-🌱 Чему я учусь
-- 🧠 Машинное обучение и ИИ
-- 👨🏻‍💻 Робототехника и компьютерное зрение
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<div align="left" style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
-  <a href="https://angular.io" target="_blank" rel="noreferrer"><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/></a>
-  <a href="https://angular.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
-  <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/></a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>
-  <a href="https://circleci.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/circleci/circleci-icon.svg" alt="circleci" width="40" height="40"/></a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
-  <a href="https://dart.dev" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/></a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/></a>
-  <a href="https://flutter.dev" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/></a>
-  <a href="https://cloud.google.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
-  <a href="https://golang.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/></a>
-  <a href="https://gulpjs.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/></a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-  <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/></a>
-  <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/></a>
-  <a href="https://kubernetes.io" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/></a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
-  <a href="https://mariadb.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/></a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/></a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"><img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/></a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>
-  <a href="https://www.nginx.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/></a>
-  <a href="https://nim-lang.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/nim-lang/nim-lang-icon.svg" alt="nim" width="40" height="40"/></a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/></a>
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/></a>
-  <a href="https://www.qt.io/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/></a>
-  <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/></a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
-  <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/></a>
-  <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a>
-  <a href="https://sass-lang.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/></a>
-  <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/></a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/></a>
-  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/></a>
-  <a href="https://spring.io/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/></a>
-  <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/></a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/></a>
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/></a>
-  <a href="https://travis-ci.org" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg" alt="travisci" width="40" height="40"/></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
-  <a href="https://www.vagrantup.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/vagrantup/vagrantup-icon.svg" alt="vagrant" width="40" height="40"/></a>
-  <a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/></a>
-  <a href="https://webpack.js.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/></a>
-</div>
+### 🛠 Технологический стек (Tech Stack)
 
+<p align="left">
+  <!-- Backend Core -->
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white" />
+  <br/>
+  <!-- DevOps & Infra -->
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+  <br/>
+  <!-- Security & Quality -->
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Semgrep_SAST-0B65C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/govulncheck-00ADD8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+</p>
+
+---
+
+### 📈 Активность на GitHub
+
+<p align="center">
+  <a href="https://github.com/qWer4Yk">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=qWer4Yk&theme=merko&hide_border=true" width="100%" />
+  </a>
+</p>
+
+---
+
+### 📫 Контакты для связи:
+* ✈️ **Telegram:** [@qWer4Yk](https://t.me/qWer4Yk) *(замени на свой ник, если отличается)*
+* 📧 **Email:** [dmitriy@example.com](mailto:dmitriy@example.com)
+* 💼 **HH.ru:** [Профиль на HeadHunter](https://hh.ru)
