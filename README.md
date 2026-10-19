@@ -95,6 +95,6 @@
 ---
 
 ### 📫 Контакты для связи:
-* ✈️ **Telegram:** [@qWer4Yk](https://t.me/qWer4Yk)
+* ✈️ **Telegram:** [@CoBecT6](https://t.me/CoBecT6)
 * 📧 **Email:** [dimadomokurov@yandex.ru](mailto:dimadomokurov@yandex.ru)
-* 💼 **HH.ru:** [Профиль на HeadHunter](https://hh.ru)
+* 💼 **HH.ru:** [Профиль на HeadHunter](https://hh.ru/resume/949e6828ff105821be0039ed1f524e4b514f69?hhtmFrom=profile)
